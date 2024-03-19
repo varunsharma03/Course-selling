@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.course-box{
+    background-color: gray;
+}
+.course-box:hover:nth-last-child(1) {
+    background-color:gray;
+ }
+
+/* .course-box:nth-last-child(1){
+   background-color: 
+} */
+/* .btn-up:hover +.btn-down {
+    visibility: visible;   
+}
+
+.btn-down {
+    visibility: hidden;
+} */
+.visible {
+    visibility: visible;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  .loader {
+    width: 10rem;
+    height: 10rem;
+    border: 5px solid;
+    border-color: #3877ff transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  
